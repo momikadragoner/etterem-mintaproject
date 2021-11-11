@@ -1,0 +1,14 @@
+<b>{{etelNev}}</b>
+<table class="table table-striped table-hover">
+    <tr>
+        <td rowspan="2">
+            <img *ngIf="etelKepUrl" class="img-thumbnail" src="{{etelKepUrl}}" alt="{{etelNev}}" title="{{etelNev}}">
+        </td>
+        <td>{{etelNev}}</td>
+    </tr>
+    <tr>
+        <td>
+            {{etelLeiras}}
+        </td>
+    </tr>
+</table>
